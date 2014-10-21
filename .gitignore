@@ -1,0 +1,7 @@
+**/*.DS_Store
+**/*._*
+release
+debug
+AugustusWindowsVersion/Release
+AugustusWindowsVersion/Debug
+/*.suo
