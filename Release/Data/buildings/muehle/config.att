@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ArbeitsplatzName</key>
+	<string>Nichts</string>
+	<key>Bauzeit</key>
+	<string>3</string>
+	<key>Beschreibung</key>
+	<string>Abbau von Stein, Erz und Gold</string>
+	<key>Lebenspunkte</key>
+	<string>100</string>
+	<key>Name</key>
+	<string>Mine</string>
+	<key>Ruestung</key>
+	<string>10</string>
+	<key>Schaden_max</key>
+	<string>0</string>
+	<key>Schaden_min</key>
+	<string>0</string>
+	<key>Wohnplatz</key>
+	<string>0</string>
+	<key>filetype</key>
+	<string>awx</string>
+	<key>hasArbeitsplatz</key>
+	<string>0</string>
+	<key>id</key>
+	<string>-1</string>
+	<key>isAbleToBuildLevelParts</key>
+	<string>feld</string>
+	<key>typeID</key>
+	<string>0</string>
+	<key>units</key>
+	<string></string>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

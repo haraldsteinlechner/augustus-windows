@@ -27,10 +27,10 @@
 	#include "GLee/glee.h"
 
 	#include <gl/gl.h>
-	#include <glut.h>
-	#include <SDL/SDL.h>
+	#include "GL/glut.h"
+	#include "SDL/SDL.h"
 	#include "SDL_ttf.h"
-	#include <SDL/SDL_thread.h>
+	#include "SDL/SDL_thread.h"
 	
 	
 #endif

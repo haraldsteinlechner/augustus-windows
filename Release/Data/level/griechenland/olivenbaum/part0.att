@@ -1,0 +1,12 @@
+<plist version="1.0">
+<dict>
+	<key>Kapazitaet</key>
+	<real>60.000000</real>
+	<key>platzbedarf</key>
+	<real>0.600000</real>
+	<key>abbaufaktor</key>
+	<real>1.000000</real>
+	<key>RessID</key>
+	<integer>4</integer>
+</dict>
+</plist>

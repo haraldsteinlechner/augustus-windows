@@ -191,6 +191,8 @@ int awx_createGame(int argc,char** argv)
 	printf("\n%s- %f  AWX\n\n\n",project.name,project.version);
 	
 	printf("\nSDL initialisieren, Umgebung erzeugen....\n");	
+
+	glutInit(&argc,argv);//freeglut requires this also for text rendering etc
 	
 	awx_runtime_environment();			// Fenster erzeugen, Fullscreen passieren usw.
 

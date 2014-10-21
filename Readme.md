@@ -1,6 +1,7 @@
+This project is a source drop of our ancient school project: Augustus (2005-2007)
+More information is available here: http://augustus.awx.at
 
+The implementation is by now at least 7 years old and does not reflect programming skills
+of the now experienced top developers/researchers ;)
 
-For building on windows:
-install glut: http://user.xmission.com/~nate/glut.html include/glut/*
-install sdl 1.2: https://www.libsdl.org/download-1.2.php include/sdl/*
-install sdl_ttf 1.2: https://www.libsdl.org/projects/SDL_ttf/release-1.2.html /include/sdl/*
+It uses: freeglut, SDL 1.2, SDL_ttf for SDL 1.2

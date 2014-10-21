@@ -1,0 +1,1 @@
+Mueller;Der Mueller produziert Brot;einkommen:80.000000;anstrengung:0.5;startArbeit:7.00000;arbeitsdauer:8.000000;Brot:10#;

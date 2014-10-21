@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Angriffswert</key>
+	<string>300</string>
+	<key>Bauzeit</key>
+	<string>2</string>
+	<key>Beschreibung</key>
+	<string>Errichtet Bauwerke</string>
+	<key>Geschwindigkeit</key>
+	<string>5.5</string>
+	<key>Lebenspunkte</key>
+	<string>120</string>
+	<key>Name</key>
+	<string>Sklave</string>
+	<key>Reichweite</key>
+	<string>1.5</string>
+	<key>Ruestung</key>
+	<string>100</string>
+	<key>Schaden_max</key>
+	<string>10</string>
+	<key>Schaden_min</key>
+	<string>4</string>
+	<key>Sichtweite</key>
+	<string>10</string>
+	<key>buildings</key>
+	<string>towncenter,familienhaus,saegewerk,schmiede,kaserne,mine,wirtshaus,muehle,brunnen,markt</string>
+	<key>filetype</key>
+	<string>awx</string>
+	<key>health_max</key>
+	<string>Wert</string>
+	<key>id</key>
+	<string>-1</string>
+	<key>rohstoffe</key>
+	<string></string>
+	<key>typeID</key>
+	<string>1</string>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>

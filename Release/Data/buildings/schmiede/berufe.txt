@@ -1,0 +1,2 @@
+Schmied;Der Schmied produziert Waffen und Ruestungen;einkommen:100.000000;anstrengung:0.8;startArbeit:7.0000000;arbeitsdauer:7.000000;Schwert:1#;
+Schmiedgehilfe;Der Schmied produziert Waffen und Ruestungen;einkommen:50.000000;anstrengung:0.9;startArbeit:6.0000000;arbeitsdauer:8.00000;Schild:1#Helm:2#;

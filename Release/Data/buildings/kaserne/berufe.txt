@@ -1,0 +1,1 @@
+Ausbilder;Bildet Rekruten aus;einkommen:120.000000;anstrengung:0.7;startArbeit:5.50000;arbeitsdauer:10.00000;;

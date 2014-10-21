@@ -1,6 +1,6 @@
 **/*.DS_Store
 **/*._*
-release
+
 debug
 AugustusWindowsVersion/Release
 AugustusWindowsVersion/Debug
@@ -11,3 +11,4 @@ AugustusWindowsVersion/Debug
 /AugustusWindowsVersion/OpenGL-Information.txt
 /AugustusWindowsVersion/temp.awx
 /AugustusWindowsVersion/AugustusWindowsVersion.vcxproj.user
+/Release/AugustusWindowsVersion.pdb

@@ -1,0 +1,24 @@
+<plist version="1.0">
+<dict>
+	<key>_resolution</key>
+	<string>800x600</string>
+	<key>_depth</key>
+	<string>32 bpp</string>
+	<key>_fullscreen</key>
+	<integer>0</integer>
+	<key>_softshadow</key>
+	<integer>0</integer>
+	<key>_anisotropicamount</key>
+	<integer>0</integer>
+	<key>_compression</key>
+	<integer>1</integer>
+	<key>_vertexshader</key>
+	<integer>0</integer>
+	<key>_fragmentshader</key>
+	<integer>0</integer>
+	<key>_antialiasing</key>
+	<integer>1</integer>
+	<key>_shadowtype</key>
+	<integer>2</integer>
+</dict>
+</plist>
