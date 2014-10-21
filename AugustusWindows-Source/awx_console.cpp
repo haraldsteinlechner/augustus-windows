@@ -197,6 +197,7 @@ void awx_console::getusername(char *&username){
     
     username = new char[strlen(temp) +1];
     strcpy(username , temp);
+	fclose(file);
     
     unlink("temp.awx");
 	
