@@ -216,6 +216,7 @@ int level::load_level(const char* filename  )
 				
 				awx_fread(&realID,sizeof(int),1,input);
 				apxPoolIdentifier[i] = realID;
+				delete name;
 			}
 			
 
@@ -241,7 +242,7 @@ int level::load_level(const char* filename  )
 				apxPool[i].IDs[0] = tempStateList;
 			}
 
-			delete name;
+
 		}
 
 		

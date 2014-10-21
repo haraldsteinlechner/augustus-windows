@@ -240,7 +240,7 @@ void kiGegnerNachdenkProcedure()
 
 	for(int i=0;i<(int)player.size();i++)
 	{
-		player[i].kiNachdenk();
+		//player[i].kiNachdenk();
 	}
 }
 
