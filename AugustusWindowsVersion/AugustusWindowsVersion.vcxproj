@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E27FF2A8-07D3-45B3-B46B-06B6C5B2CE7C}</ProjectGuid>
+    <RootNamespace>AugustusWindowsVersion</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60315.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4018;4521;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDLmain.lib;SDL.lib;opengl32.lib;glu32.lib;glut32.lib;SDL_ttf.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDLmain.lib;SDL.lib;opengl32.lib;glu32.lib;glut32.lib;SDL_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AugustusWindows-Source\awx_player.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_AIController.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_AIEnemy.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_decision.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_decision_network.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_functionDictionary.h" />
+    <ClInclude Include="..\AugustusWindows-Source\sammlung.h" />
+    <ClInclude Include="..\AugustusWindows-Source\SDL_ttf.h" />
+    <ClInclude Include="..\AugustusWindows-Source\SDL\SDL_ttf.h" />
+    <ClInclude Include="..\AugustusWindows-Source\SDLMain.h" />
+    <ClInclude Include="..\AugustusWindows-Source\SDL\SDLMain.h" />
+    <ClInclude Include="..\AugustusWindows-Source\fmod\wincompat.h" />
+    <ClInclude Include="..\AugustusWindows-Source\GLee.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_condition.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_result.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_rule.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_rule_container.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_set.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_utilities.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fuzzy_variable.h" />
+    <ClInclude Include="..\AugustusWindows-Source\fuzzy.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_AStar.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_building_functions.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_building_utilities.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_camera.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_cameraDrive.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_constants.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_controlManager.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_controls.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_einheit.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_GameController.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_inGame.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_ki.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_main.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_mainMenu.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_mouse_functions.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_renderGlobals.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_rendering.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_selection.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_storyController.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_tga.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_threadFuncs.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_unit.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_unit_ego.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_unit_functions.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_unit_utilities.h" />
+    <ClInclude Include="..\AugustusWindows-Source\globals.h" />
+    <ClInclude Include="..\AugustusWindows-Source\globals_extern.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_trueTypeFont.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_aax.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_apx.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_building.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_level.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_level_part.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_map.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_slider.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_terrain.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_textureAnimationManager.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_visibilityCheck.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_atmosphere.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_blob.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_blood.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_cpp_utilities.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_fbo.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_frustumCulling.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_opengl_utilities.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_particleSystem.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_particleSystemHandler.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_project.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_random.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_shader.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_skyBoxDome.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_specialEffects.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_stencilShadow.h" />
+    <ClInclude Include="..\AugustusWindows-Source\includeOpenGLAndSDL.h" />
+    <ClInclude Include="..\AugustusWindows-Source\mainMenuUltraRender.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_array.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_dictionary.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_filesystem.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_hitTest.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_intersections.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_matrix.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_string.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_time.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_triangle.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_vector.h" />
+    <ClInclude Include="..\AugustusWindows-Source\coolMatrixStuff.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_button.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_checkbox.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_console.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_gui.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_gui_object.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_inputTextField.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_progress.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_radio_button.h" />
+    <ClInclude Include="..\AugustusWindows-Source\awx_window.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AugustusWindows-Source\awx_time.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\main.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_decision.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_decision_network.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_functionDictionary.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_ki.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\GLee.c" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_condition.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_result.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_rule.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_rule_container.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_set.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_utilities.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_fuzzy_variable.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_cameraDrive.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_trueTypeFont.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_aax.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_apx.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_blob.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_blood.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_button.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_level.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_level_part.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_slider.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_terrain.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_tga.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_camera.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_cpp_utilities.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_matrix.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_opengl_utilities.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_particleSystem.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_shader.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_array.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_dictionary.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_filesystem.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_string.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_triangle.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_vector.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\coolMatrixStuff.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_checkbox.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_console.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_gui_object.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_inputTextField.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_map.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_progress.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_radio_button.cpp" />
+    <ClCompile Include="..\AugustusWindows-Source\awx_window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\water\project.frag" />
+    <None Include="Data\water\project.vert" />
+    <None Include="Data\water\reflect.frag" />
+    <None Include="Data\water\reflect.vert" />
+    <None Include="Data\water\reflectSimple.frag" />
+    <None Include="Data\water\reflectSimple.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

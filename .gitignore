@@ -5,3 +5,8 @@ debug
 AugustusWindowsVersion/Release
 AugustusWindowsVersion/Debug
 /*.suo
+/AugustusWindowsVersion.opensdf
+/AugustusWindowsVersion.sdf
+/AugustusWindowsVersion/AugustusWindowsVersion.vcxproj.filters
+/AugustusWindowsVersion/OpenGL-Information.txt
+/AugustusWindowsVersion/temp.awx

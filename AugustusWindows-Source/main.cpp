@@ -168,9 +168,6 @@ vector<awx_vector3f> drawPath;
 #include "awx_stencilShadow.h"
 
 
-
-#include "awx_sound.h"
-
 #include "awx_main.h"
 
 

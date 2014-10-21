@@ -26,9 +26,9 @@ void cleanUpMenu();
 extern vector<fonts>loadedFonts;
 
 
-// Soundsystem
-SoundSystem *mainMenuSoundSystem;
-int SoundSystemID=-1;
+//// Soundsystem
+//SoundSystem *mainMenuSoundSystem;
+//int SoundSystemID=-1;
 
 // Skybox
 awxSkyBox *mainMenuSkyBox;
@@ -1029,7 +1029,7 @@ void cleanUpMenu()
 	
 	renderLoadingScreen("Deallocating...");
 
-	delete mainMenuSoundSystem; 
+	//delete mainMenuSoundSystem; 
 	
 	
 	glDeleteTextures(1,&textur_liste[menuTexID]);

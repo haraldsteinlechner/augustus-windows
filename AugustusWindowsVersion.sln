@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AugustusWindowsVersion", "AugustusWindowsVersion\AugustusWindowsVersion.vcproj", "{E27FF2A8-07D3-45B3-B46B-06B6C5B2CE7C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AugustusWindowsVersion", "AugustusWindowsVersion\AugustusWindowsVersion.vcxproj", "{E27FF2A8-07D3-45B3-B46B-06B6C5B2CE7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

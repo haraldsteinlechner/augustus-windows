@@ -24,10 +24,10 @@
 
 	#include <windows.h>
 
-	#include <gl/glee.h>
+	#include "GLee/glee.h"
 
 	#include <gl/gl.h>
-	#include <gl/glut.h>
+	#include <glut.h>
 	#include <SDL/SDL.h>
 	#include "SDL_ttf.h"
 	#include <SDL/SDL_thread.h>
