@@ -170,8 +170,9 @@ vector<awx_vector3f> drawPath;
 
 #include "awx_main.h"
 
+//int main(int argc, char** argv){return 1;}
 
-int SDL_main(int argc,char** argv)
+int main(int argc,char** argv)
 {
 	awx_createGame(argc,argv);
 	

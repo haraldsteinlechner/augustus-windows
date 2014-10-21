@@ -84,7 +84,7 @@
       <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SDLmain.lib;SDL.lib;opengl32.lib;glu32.lib;glut32.lib;SDL_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL.lib;opengl32.lib;glu32.lib;glut32.lib;SDL_ttf.lib;SDLmain.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -249,6 +249,9 @@
     <None Include="Data\water\reflect.vert" />
     <None Include="Data\water\reflectSimple.frag" />
     <None Include="Data\water\reflectSimple.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDLmain.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
