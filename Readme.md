@@ -10,7 +10,7 @@ Manuel Wieser
 
 More information is available here: http://augustus.awx.at
 
-The implementation is by now at least 7 years old and does not reflect programming skills
-of the now experienced top developers/researchers ;)
+Keep in mind that those implementations are at least 7 years atm and our programming style
+changed significantly ;)
 
 It uses: freeglut, SDL 1.2, SDL_ttf for SDL 1.2
