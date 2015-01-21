@@ -15,6 +15,8 @@ changed significantly ;)
 
 It uses: freeglut, SDL 1.2, SDL_ttf for SDL 1.2
 
+A mirror of the old website [augustus](http://augustus.awx.at) is available here: [augustus mirror](docs/oldWebsite/Augustus%20-%20Real-Time%20Strategy%20Game.html)
+
 ![alt text](docs/screen_ingame.jpg "In game screenshot")
 
 ![alt text](docs/apxconvert.jpg "Our modeling application in action")
